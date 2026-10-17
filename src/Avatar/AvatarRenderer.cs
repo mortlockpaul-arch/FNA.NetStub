@@ -88,12 +88,13 @@ namespace Microsoft.Xna.Framework.GamerServices
 			get;
 			private set;
 		}
+        public bool IsLoaded { get; set; }
 
-		#endregion
+        #endregion
 
-		#region Public Constructors
+        #region Public Constructors
 
-		public AvatarRenderer(
+        public AvatarRenderer(
 			AvatarDescription avatarDescription
 		) : this(avatarDescription, false) {
 		}
