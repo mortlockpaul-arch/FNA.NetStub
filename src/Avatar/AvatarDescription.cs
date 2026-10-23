@@ -12,7 +12,7 @@ using System;
 using System.Collections.ObjectModel;
 using System.Threading;
 #endregion
-
+using Microsoft.Xna.Framework.GamerServices;
 namespace Microsoft.Xna.Framework.GamerServices
 {
 	public class AvatarDescription

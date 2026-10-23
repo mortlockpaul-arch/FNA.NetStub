@@ -54,9 +54,6 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="FNA.NetStub.csproj.new" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
@@ -135,6 +132,9 @@
     <Compile Include="src\Net\NetworkSessionType.cs" />
     <Compile Include="src\Net\SendDataOptions.cs" />
     <Compile Include="src\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="src\GamerServices\GamerServicesComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FNA\FNA.csproj">
